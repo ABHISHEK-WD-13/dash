@@ -15,13 +15,20 @@ $(".btn3").click(  function(){
 } );
 
 
-$(document).scroll( function(){
+// $(document).scroll( function(){
    
     
-    if($(document).scrollTop()<=$("#student-laptop").position().top){
-        console.log("equal");
-        $("#student-laptop").css("background-attachment" , "fixed");
-    }else{
-        $("#student-laptop").css("background-attachment" , "none");
-    }
-})
+//     if($(document).scrollTop()<=$("#student-laptop").position().top){
+//         console.log("equal");
+//         $("#student-laptop").css("background-attachment" , "fixed");
+//     }else{
+//         $("#student-laptop").css("background-attachment" , "none");
+//     }
+
+//     if($(document).scrollTop()<=$("#buisness-laptop").position().top){
+//         console.log("equal");
+//         $("#buisness-laptop").css("background-attachment" , "fixed");
+//     }else{
+//         $("#business-laptop").css("background-attachment" , "none");
+//     }
+// })
